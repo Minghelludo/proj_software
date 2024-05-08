@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://1rdyv16qqhoy"]
+
+[ext_resource type="Texture2D" uid="uid://8pfmpbwakr48" path="res://assets/tabuleiro.png" id="1_2koln"]
+[ext_resource type="PackedScene" uid="uid://dmrbvdoedmnh0" path="res://player/player_1.tscn" id="2_fafxp"]
+
+[node name="Tabuleiro" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_2koln")
+centered = false
+
+[node name="Player1" parent="." instance=ExtResource("2_fafxp")]
+visible = false
+position = Vector2(35, 960)
