@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dv0j75dn4vr7n"]
+
+[ext_resource type="Texture2D" uid="uid://na63wnyegn3u" path="res://assets/token2.png" id="1_rf7wg"]
+
+[node name="Player2" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("1_rf7wg")
