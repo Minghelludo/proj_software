@@ -1,8 +1,11 @@
 extends Node2D
+#variaveis
 var pos_inicio: Vector2 = Vector2(30,770)
 var dinheiro: int = 5000
+#pos_casa vai ser por onde controlar aonde no tabuleiro o jogador esta
 @onready var pos_casa = get_parent().get_node("casa_inicio")
 
+#recebe o valor do dado e move as casas com o loop, no final executa a açao da casa
 func move_casa(dice):
 	while dice != 0:
 		pos_casa = pos_casa.get_prox()

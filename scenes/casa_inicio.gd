@@ -1,11 +1,15 @@
 extends Node2D
 
+#variavel da proxima casa para poder mover
 @onready var prox_casa = get_parent().get_node("casa_1")
+#posição da casa para basear o display do jogador
 const pos = Vector2(50,750)
 
 func get_position_casa():
 	return pos
 
+#ação da casa, nesse caso adiciona fundos quando o jogador passa
+#precisa atualizar dps pq ta só quando ele para, mas isso checa pelo movimento
 func exec_action(pl):
 	if pl == 1:
 		var p1 = get_parent().get_node("player1")

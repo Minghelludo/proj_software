@@ -1,5 +1,5 @@
 extends Node2D
-
+#precisa adicionar função do rng
 var n = 2
 
 func roll():
