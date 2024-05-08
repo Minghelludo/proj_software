@@ -1,0 +1,10 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1715139795
+icon.svg::CompressedTexture2D::8420263882416960617::1715128956::1715139813::1::::<><>::
+::res://assets/::1715136346
+tabuleiro.png::CompressedTexture2D::2347523311251705999::1715135406::1715139813::1::::<><>::
+token1.png::CompressedTexture2D::9192038980793404::1715136320::1715139813::1::::<><>::
+::res://player/::1715137063
+player_1.tscn::PackedScene::8036720994603027147::1715137063::0::1::::<><>::uid://epnkvbyj8ei::::res://assets/token1.png
+::res://scenes/::1715137063
+tabuleiro.tscn::PackedScene::1860230511025659888::1715137063::0::1::::<><>::uid://8pfmpbwakr48::::res://assets/tabuleiro.png<>uid://dmrbvdoedmnh0::::res://player/player_1.tscn
