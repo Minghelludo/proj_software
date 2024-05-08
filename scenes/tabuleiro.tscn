@@ -1,50 +1,18 @@
-[gd_scene load_steps=14 format=3 uid="uid://1rdyv16qqhoy"]
+[gd_scene load_steps=11 format=3 uid="uid://1rdyv16qqhoy"]
 
 [ext_resource type="Texture2D" uid="uid://8pfmpbwakr48" path="res://assets/tabuleiro.png" id="1_2koln"]
 [ext_resource type="Script" path="res://scenes/tabuleiro.gd" id="1_uojyg"]
 [ext_resource type="PackedScene" uid="uid://dmrbvdoedmnh0" path="res://player/player_1.tscn" id="2_fafxp"]
 [ext_resource type="Script" path="res://player/player_1.gd" id="3_sxwhf"]
-[ext_resource type="PackedScene" uid="uid://dv0j75dn4vr7n" path="res://player/player_2.tscn" id="4_30jjr"]
-[ext_resource type="Script" path="res://player/player_2.gd" id="5_0ir2r"]
-[ext_resource type="PackedScene" uid="uid://chg8ao7mfbfvu" path="res://player/player_3.tscn" id="5_onpiy"]
-[ext_resource type="PackedScene" uid="uid://blofbg5r7g43u" path="res://player/player_4.tscn" id="6_c0quw"]
-[ext_resource type="Script" path="res://player/player_3.gd" id="7_wvl0g"]
-[ext_resource type="Script" path="res://player/player_4.gd" id="9_wqp2p"]
+[ext_resource type="Script" path="res://scenes/casa_2.gd" id="8_nklfh"]
+[ext_resource type="Script" path="res://scenes/casa_3.gd" id="9_7djcb"]
+[ext_resource type="Script" path="res://scenes/casa_4.gd" id="10_h8p61"]
 [ext_resource type="Script" path="res://scenes/casa_inicio.gd" id="10_tgx30"]
 [ext_resource type="Script" path="res://scenes/casa_1.gd" id="12_4o1c1"]
 [ext_resource type="Script" path="res://scenes/Label.gd" id="12_tfybl"]
 
 [node name="Tabuleiro" type="Node2D"]
 script = ExtResource("1_uojyg")
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.8, 0.8)
-texture = ExtResource("1_2koln")
-centered = false
-
-[node name="Player1" parent="." instance=ExtResource("2_fafxp")]
-position = Vector2(294, 622)
-script = ExtResource("3_sxwhf")
-
-[node name="Player2" parent="." instance=ExtResource("4_30jjr")]
-position = Vector2(202, 630)
-script = ExtResource("5_0ir2r")
-
-[node name="Player3" parent="." instance=ExtResource("5_onpiy")]
-position = Vector2(276, 573)
-script = ExtResource("7_wvl0g")
-
-[node name="Player4" parent="." instance=ExtResource("6_c0quw")]
-position = Vector2(206, 563)
-script = ExtResource("9_wqp2p")
-
-[node name="casa_inicio" type="Node2D" parent="."]
-position = Vector2(56, 746)
-script = ExtResource("10_tgx30")
-
-[node name="casa_1" type="Node2D" parent="."]
-position = Vector2(54, 644)
-script = ExtResource("12_4o1c1")
 
 [node name="Label" type="Label" parent="."]
 offset_left = 868.0
@@ -54,3 +22,32 @@ offset_bottom = 213.0
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("12_tfybl")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("1_2koln")
+centered = false
+
+[node name="player1" parent="." instance=ExtResource("2_fafxp")]
+position = Vector2(294, 622)
+script = ExtResource("3_sxwhf")
+
+[node name="casa_inicio" type="Node2D" parent="."]
+position = Vector2(50, 750)
+script = ExtResource("10_tgx30")
+
+[node name="casa_1" type="Node2D" parent="."]
+position = Vector2(40, 645)
+script = ExtResource("12_4o1c1")
+
+[node name="casa_2" type="Node2D" parent="."]
+position = Vector2(40, 590)
+script = ExtResource("8_nklfh")
+
+[node name="casa_3" type="Node2D" parent="."]
+position = Vector2(40, 530)
+script = ExtResource("9_7djcb")
+
+[node name="casa_4" type="Node2D" parent="."]
+position = Vector2(40, 470)
+script = ExtResource("10_h8p61")

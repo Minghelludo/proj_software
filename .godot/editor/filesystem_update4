@@ -1,7 +1,9 @@
 res://scenes/tabuleiro.tscn
+res://scenes/casa_inicio.gd
+res://scenes/casa_1.gd
+res://player/player_1.gd
 res://scenes/tabuleiro.gd
 res://player/player_1.tscn
-res://scenes/Label.gd
-res://scenes/casa_inicio.gd
-res://player/player_1.gd
-res://scenes/casa_1.gd
+res://scenes/casa_2.gd
+res://scenes/casa_3.gd
+res://scenes/casa_4.gd

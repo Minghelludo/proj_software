@@ -1,9 +1,19 @@
 extends Node2D
-var pos_inicio: Vector2 = Vector2(90,710)
+
+@onready var prox_casa = get_parent().get_node("casa_4")
+const pos = Vector2(40,530)
+
+func get_position_casa():
+	return pos
+
+func exec_action(pl):
+	pass
+
+func get_prox():
+	return prox_casa
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	position = pos_inicio
 	pass # Replace with function body.
 
 
