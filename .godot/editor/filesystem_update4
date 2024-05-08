@@ -7,3 +7,6 @@ res://player/player_1.tscn
 res://scenes/casa_2.gd
 res://scenes/casa_3.gd
 res://scenes/casa_4.gd
+res://scenes/Button.gd
+res://scenes/dados.gd
+res://scenes/dice.gd

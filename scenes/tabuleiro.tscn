@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://1rdyv16qqhoy"]
+[gd_scene load_steps=12 format=3 uid="uid://1rdyv16qqhoy"]
 
 [ext_resource type="Texture2D" uid="uid://8pfmpbwakr48" path="res://assets/tabuleiro.png" id="1_2koln"]
 [ext_resource type="Script" path="res://scenes/tabuleiro.gd" id="1_uojyg"]
@@ -8,13 +8,14 @@
 [ext_resource type="Script" path="res://scenes/casa_3.gd" id="9_7djcb"]
 [ext_resource type="Script" path="res://scenes/casa_4.gd" id="10_h8p61"]
 [ext_resource type="Script" path="res://scenes/casa_inicio.gd" id="10_tgx30"]
+[ext_resource type="Script" path="res://scenes/dice.gd" id="11_rmq5u"]
 [ext_resource type="Script" path="res://scenes/casa_1.gd" id="12_4o1c1"]
 [ext_resource type="Script" path="res://scenes/Label.gd" id="12_tfybl"]
 
 [node name="Tabuleiro" type="Node2D"]
 script = ExtResource("1_uojyg")
 
-[node name="Label" type="Label" parent="."]
+[node name="Label_p1" type="Label" parent="."]
 offset_left = 868.0
 offset_top = 35.0
 offset_right = 1082.0
@@ -51,3 +52,13 @@ script = ExtResource("9_7djcb")
 [node name="casa_4" type="Node2D" parent="."]
 position = Vector2(40, 470)
 script = ExtResource("10_h8p61")
+
+[node name="dice_roll" type="Button" parent="."]
+offset_left = 851.0
+offset_top = 516.0
+offset_right = 1095.0
+offset_bottom = 635.0
+text = "Rolar Dado"
+
+[node name="dice" type="Node2D" parent="."]
+script = ExtResource("11_rmq5u")
