@@ -2,7 +2,7 @@ extends Label
 var display_dinheiro
 
 func mostra_di(di):
-	text = str(di)
+	text = ("P1: ") + str(di)
 	pass
 # Called when the node enters the scene tree for the first time.
 func _ready():

@@ -7,6 +7,9 @@ func get_position_casa():
 	return pos
 	
 func exec_action(pl):
+	#var aux = pl.get_dinheiro()
+	#if aux > 5000:
+		#pl.add_dinheiro(-1000)
 	pass
 
 func get_prox():

@@ -1,6 +1,6 @@
 extends Node2D
 #variaveis
-var pos_inicio: Vector2 = Vector2(30,770)
+var pos_inicio: Vector2 = Vector2(90,770)
 var dinheiro: int = 5000
 #casa_i é a casa inicial pra controlar o recebimento de dinheiro
 #pos_casa vai ser por onde controlar aonde no tabuleiro o jogador esta
@@ -13,7 +13,6 @@ func move_casa(dice):
 		pos_casa = pos_casa.get_prox()
 		dice = dice-1
 		position = pos_casa.get_position_casa()
-		#caso ele passe pela casa i e não pare nela, executa a ação
 		if pos_casa == casa_i and dice !=0:
 			pos_casa.exec_action(self)
 	pos_casa.exec_action(self)

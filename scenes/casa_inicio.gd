@@ -11,9 +11,7 @@ func get_position_casa():
 #ação da casa, nesse caso adiciona fundos quando o jogador passa
 #precisa atualizar dps pq ta só quando ele para, mas isso checa pelo movimento
 func exec_action(pl):
-	if pl == 1:
-		var p1 = get_parent().get_node("player1")
-		p1.add_dinheiro(1000)
+	pl.add_dinheiro(1000)
 	pass
 
 func get_prox():

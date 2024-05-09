@@ -1,10 +1,8 @@
-extends Node2D
-#precisa adicionar função do rng
-var n = 2
+extends Label
 
-func roll():
-	return 2
-
+func mostra_di(di):
+	text = ("P2: ") + str(di)
+	pass
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
