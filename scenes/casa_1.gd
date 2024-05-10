@@ -1,15 +1,28 @@
 extends Node2D
-
+#casa propriedade
 @onready var prox_casa = get_parent().get_node("casa_2")
 const pos = Vector2(40,645)
+@onready var proprietario = null
+const custo_compra = 1000
+var custo_aluguel = 200
 
 func get_position_casa():
 	return pos
 	
 func exec_action(pl):
-	#var aux = pl.get_dinheiro()
-	#if aux > 5000:
-		#pl.add_dinheiro(-1000)
+	#caso nao tenha dono
+	if proprietario == null:
+		pl.add_dinheiro(custo_compra*-1)
+		proprietario = pl
+	#caso tenha
+	else:
+		#se for ele msm dps implementar construcao
+		if pl == proprietario:
+			pass
+		#se nao paga o aluguel
+		else:
+			pl.add_dinheiro(custo_aluguel*-1)
+			proprietario.add_dinheiro(custo_aluguel)
 	pass
 
 func get_prox():

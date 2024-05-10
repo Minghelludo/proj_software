@@ -1,9 +1,11 @@
 extends Node2D
 #precisa adicionar função do rng
-var n = 2
+var rng = RandomNumberGenerator.new()
 
 func roll():
-	return 2
+	#modificar os valores do range
+	var aux = rng.randi_range(1,3)
+	return aux
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

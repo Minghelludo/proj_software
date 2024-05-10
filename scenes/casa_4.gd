@@ -1,5 +1,5 @@
 extends Node2D
-
+#casa imposto
 @onready var prox_casa = get_parent().get_node("casa_inicio")
 const pos = Vector2(40,470)
 
@@ -7,6 +7,8 @@ func get_position_casa():
 	return pos
 
 func exec_action(pl):
+	var aux = -500
+	pl.add_dinheiro(aux)
 	pass
 
 func get_prox():

@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715289520
+::res://::1715359491
 icon.svg::CompressedTexture2D::8420263882416960617::1715200191::1715200191::1::::<><>::
 ::res://assets/::1715289484
 tabuleiro.png::CompressedTexture2D::2347523311251705999::1715200191::1715200191::1::::<><>::
@@ -14,7 +14,7 @@ player_2.gd::GDScript::-1::1715289001::0::1::::<>Node2D<>::
 player_2.tscn::PackedScene::8685442390634510441::1715200191::0::1::::<><>::uid://na63wnyegn3u::::res://assets/token2.png
 player_3.tscn::PackedScene::5278553985450676682::1715200191::0::1::::<><>::uid://eeh1xoppg47v::::res://assets/token3.png
 player_4.tscn::PackedScene::3187704985325699984::1715200191::0::1::::<><>::uid://clvt2jo87822q::::res://assets/token4.png
-::res://scenes/::1715289496
+::res://scenes/::1715289543
 casa_1.gd::GDScript::-1::1715288123::0::1::::<>Node2D<>::
 casa_2.gd::GDScript::-1::1715200191::0::1::::<>Node2D<>::
 casa_3.gd::GDScript::-1::1715200191::0::1::::<>Node2D<>::
@@ -24,4 +24,4 @@ dice.gd::GDScript::-1::1715288872::0::1::::<>Node2D<>::
 Label.gd::GDScript::-1::1715287250::0::1::::<>Label<>::
 Label_p2.gd::GDScript::-1::1715288262::0::1::::<>Label<>::
 tabuleiro.gd::GDScript::-1::1715288281::0::1::::<>Node2D<>::
-tabuleiro.tscn::PackedScene::1860230511025659888::1715289017::0::1::::<><>::uid://8pfmpbwakr48::::res://assets/tabuleiro.png<>res://scenes/tabuleiro.gd<>uid://dmrbvdoedmnh0::::res://player/player_1.tscn<>res://scenes/Label_p2.gd<>res://player/player_1.gd<>uid://dv0j75dn4vr7n::::res://player/player_2.tscn<>res://player/player_2.gd<>res://scenes/casa_2.gd<>res://scenes/casa_3.gd<>res://scenes/casa_4.gd<>res://scenes/casa_inicio.gd<>res://scenes/dice.gd<>res://scenes/casa_1.gd<>res://scenes/Label.gd
+tabuleiro.tscn::PackedScene::1860230511025659888::1715289543::0::1::::<><>::uid://8pfmpbwakr48::::res://assets/tabuleiro.png<>res://scenes/tabuleiro.gd<>uid://dmrbvdoedmnh0::::res://player/player_1.tscn<>res://scenes/Label_p2.gd<>res://player/player_1.gd<>uid://dv0j75dn4vr7n::::res://player/player_2.tscn<>res://player/player_2.gd<>res://scenes/casa_2.gd<>res://scenes/casa_3.gd<>res://scenes/casa_4.gd<>res://scenes/casa_inicio.gd<>res://scenes/dice.gd<>res://scenes/casa_1.gd<>res://scenes/Label.gd
