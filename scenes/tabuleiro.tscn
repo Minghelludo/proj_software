@@ -1,10 +1,11 @@
-[gd_scene load_steps=15 format=3 uid="uid://1rdyv16qqhoy"]
+[gd_scene load_steps=16 format=3 uid="uid://1rdyv16qqhoy"]
 
 [ext_resource type="Texture2D" uid="uid://8pfmpbwakr48" path="res://assets/tabuleiro.png" id="1_2koln"]
 [ext_resource type="Script" path="res://scenes/tabuleiro.gd" id="1_uojyg"]
 [ext_resource type="PackedScene" uid="uid://dmrbvdoedmnh0" path="res://player/player_1.tscn" id="2_fafxp"]
 [ext_resource type="Script" path="res://scenes/Label_p2.gd" id="3_8hl3v"]
 [ext_resource type="Script" path="res://player/player_1.gd" id="3_sxwhf"]
+[ext_resource type="Script" path="res://scenes/Label_dice.gd" id="4_f604k"]
 [ext_resource type="PackedScene" uid="uid://dv0j75dn4vr7n" path="res://player/player_2.tscn" id="6_lg0m8"]
 [ext_resource type="Script" path="res://player/player_2.gd" id="7_u8aij"]
 [ext_resource type="Script" path="res://scenes/casa_2.gd" id="8_nklfh"]
@@ -32,7 +33,18 @@ offset_left = 865.0
 offset_top = 221.0
 offset_right = 1089.0
 offset_bottom = 423.0
+horizontal_alignment = 1
+vertical_alignment = 1
 script = ExtResource("3_8hl3v")
+
+[node name="Label_dice" type="Label" parent="."]
+offset_left = 852.0
+offset_top = 452.0
+offset_right = 1082.0
+offset_bottom = 499.0
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("4_f604k")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(0.8, 0.8)

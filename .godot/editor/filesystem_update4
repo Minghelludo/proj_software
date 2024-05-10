@@ -5,3 +5,5 @@ res://scenes/casa_inicio.gd
 res://scenes/casa_3.gd
 res://scenes/casa_2.gd
 res://scenes/casa_4.gd
+res://scenes/tabuleiro.gd
+res://scenes/Label_dice.gd
