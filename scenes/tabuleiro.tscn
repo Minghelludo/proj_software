@@ -47,36 +47,36 @@ vertical_alignment = 1
 script = ExtResource("4_f604k")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.8, 0.8)
+scale = Vector2(0.647, 0.647)
 texture = ExtResource("1_2koln")
 centered = false
 
 [node name="player1" parent="." instance=ExtResource("2_fafxp")]
-position = Vector2(294, 622)
+position = Vector2(30, 620)
 script = ExtResource("3_sxwhf")
 
 [node name="player2" parent="." instance=ExtResource("6_lg0m8")]
-position = Vector2(90, 765)
+position = Vector2(70, 620)
 script = ExtResource("7_u8aij")
 
 [node name="casa_inicio" type="Node2D" parent="."]
-position = Vector2(50, 750)
+position = Vector2(51, 599)
 script = ExtResource("10_tgx30")
 
 [node name="casa_1" type="Node2D" parent="."]
-position = Vector2(40, 645)
+position = Vector2(40, 520)
 script = ExtResource("12_4o1c1")
 
 [node name="casa_2" type="Node2D" parent="."]
-position = Vector2(40, 590)
+position = Vector2(37, 471)
 script = ExtResource("8_nklfh")
 
 [node name="casa_3" type="Node2D" parent="."]
-position = Vector2(40, 530)
+position = Vector2(36, 422)
 script = ExtResource("9_7djcb")
 
 [node name="casa_4" type="Node2D" parent="."]
-position = Vector2(40, 470)
+position = Vector2(36, 375)
 script = ExtResource("10_h8p61")
 
 [node name="dice_roll" type="Button" parent="."]

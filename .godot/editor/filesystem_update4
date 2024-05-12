@@ -1,9 +1,10 @@
+res://player/player_1.tscn
+res://player/player_2.tscn
 res://scenes/tabuleiro.tscn
-res://scenes/casa_1.gd
-res://scenes/dice.gd
+res://player/player_1.gd
+res://player/player_2.gd
 res://scenes/casa_inicio.gd
-res://scenes/casa_3.gd
+res://scenes/casa_1.gd
 res://scenes/casa_2.gd
+res://scenes/casa_3.gd
 res://scenes/casa_4.gd
-res://scenes/tabuleiro.gd
-res://scenes/Label_dice.gd

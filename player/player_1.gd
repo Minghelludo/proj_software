@@ -1,6 +1,6 @@
 extends Node2D
 #variaveis
-var pos_inicio: Vector2 = Vector2(30,770)
+var pos_inicio: Vector2 = Vector2(30,620)
 var dinheiro: int = 5000
 #casa_i é a casa inicial pra controlar o recebimento de dinheiro
 #pos_casa vai ser por onde controlar aonde no tabuleiro o jogador esta

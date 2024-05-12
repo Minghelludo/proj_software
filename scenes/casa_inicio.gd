@@ -3,7 +3,7 @@ extends Node2D
 #variavel da proxima casa para poder mover
 @onready var prox_casa = get_parent().get_node("casa_1")
 #posição da casa para basear o display do jogador
-const pos = Vector2(50,750)
+const pos = Vector2(50,600)
 
 func get_position_casa():
 	return pos

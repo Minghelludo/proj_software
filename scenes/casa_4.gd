@@ -1,7 +1,7 @@
 extends Node2D
 #casa imposto
 @onready var prox_casa = get_parent().get_node("casa_inicio")
-const pos = Vector2(40,470)
+const pos = Vector2(40,375)
 
 func get_position_casa():
 	return pos

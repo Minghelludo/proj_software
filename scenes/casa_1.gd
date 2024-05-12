@@ -1,7 +1,7 @@
 extends Node2D
 #casa propriedade
 @onready var prox_casa = get_parent().get_node("casa_2")
-const pos = Vector2(40,645)
+const pos = Vector2(40,520)
 @onready var proprietario = null
 const custo_compra = 1000
 var custo_aluguel = 200
