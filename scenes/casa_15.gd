@@ -1,35 +1,24 @@
 extends Node2D
-#casa propriedade
-@onready var prox_casa = get_parent().get_node("casa_4")
-@onready var parente = get_parent().get_node("casa_1")
-const pos = Vector2(40,420)
+#casa onibus
+@onready var prox_casa = get_parent().get_node("casa_inicio")
+#onready var parentes
+const pos = Vector2(325,50)
 @onready var proprietario = null
 const custo_compra = 1000
 var custo_aluguel = 200
-var quant_casas = 0
-@onready var label = $Label_props_c3
 
 func get_position_casa():
 	return pos
-	
+
 func get_proprietario():
 	return proprietario
 	
-func compra_casa(prop):
-	if quant_casas < 5:
-		quant_casas = quant_casas+1
-		custo_aluguel = custo_aluguel + 50
-		prop.add_dinheiro(-100)
-		label.att_props(quant_casas)
-	
-
 func exec_action(pl):
 	if proprietario == null:
 		pl.add_dinheiro(custo_compra*-1)
 		proprietario = pl
 	else:
-		if pl == proprietario and proprietario == parente.get_proprietario():
-			compra_casa(pl)
+		if pl == proprietario:
 			pass
 		else:
 			pl.add_dinheiro(custo_aluguel*-1)
@@ -38,6 +27,7 @@ func exec_action(pl):
 
 func get_prox():
 	return prox_casa
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

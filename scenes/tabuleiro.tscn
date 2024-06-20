@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://1rdyv16qqhoy"]
+[gd_scene load_steps=43 format=3 uid="uid://1rdyv16qqhoy"]
 
 [ext_resource type="Texture2D" uid="uid://8pfmpbwakr48" path="res://assets/tabuleiro.png" id="1_2koln"]
 [ext_resource type="Script" path="res://scenes/tabuleiro.gd" id="1_uojyg"]
@@ -14,7 +14,50 @@
 [ext_resource type="Script" path="res://scenes/casa_inicio.gd" id="10_tgx30"]
 [ext_resource type="Script" path="res://scenes/dice.gd" id="11_rmq5u"]
 [ext_resource type="Script" path="res://scenes/casa_1.gd" id="12_4o1c1"]
+[ext_resource type="Script" path="res://scenes/Label_props_c1.gd" id="12_obepp"]
 [ext_resource type="Script" path="res://scenes/Label.gd" id="12_tfybl"]
+[ext_resource type="Script" path="res://scenes/Label_props_c3.gd" id="15_386h0"]
+[ext_resource type="Script" path="res://scenes/casa_5.gd" id="17_6pym6"]
+[ext_resource type="Script" path="res://scenes/casa_6.gd" id="18_seawj"]
+[ext_resource type="Script" path="res://scenes/Label_props_c6.gd" id="19_rl786"]
+[ext_resource type="Script" path="res://scenes/casa_7.gd" id="20_t8l0d"]
+[ext_resource type="Script" path="res://scenes/casa_8.gd" id="21_emgny"]
+[ext_resource type="Script" path="res://scenes/Label_props_c8.gd" id="22_o1ao5"]
+[ext_resource type="Script" path="res://scenes/casa_9.gd" id="23_mr22u"]
+[ext_resource type="Script" path="res://scenes/Label_props_c9.gd" id="24_j2y7q"]
+[ext_resource type="Script" path="res://scenes/casa_10.gd" id="25_2vl2b"]
+[ext_resource type="Script" path="res://scenes/casa_11.gd" id="26_y5xef"]
+[ext_resource type="Script" path="res://scenes/Label_props_c11.gd" id="27_muwhh"]
+[ext_resource type="Script" path="res://scenes/casa_12.gd" id="29_1uhtf"]
+[ext_resource type="Script" path="res://scenes/casa_13.gd" id="29_us8ss"]
+[ext_resource type="Script" path="res://scenes/Label_props_c13.gd" id="30_r6yr0"]
+[ext_resource type="Script" path="res://scenes/casa_14.gd" id="31_l8s5y"]
+[ext_resource type="Script" path="res://scenes/Label_props_c14.gd" id="32_ooar4"]
+[ext_resource type="Script" path="res://scenes/casa_15.gd" id="33_25bj8"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_4kkme"]
+font_color = Color(0.0235294, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_abrwe"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_wce74"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_3v8b1"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_4do1e"]
+font_color = Color(0, 0.00392157, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_7ho3v"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_d5g43"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_4p4gf"]
+font_color = Color(0, 0, 0, 1)
 
 [node name="Tabuleiro" type="Node2D"]
 script = ExtResource("1_uojyg")
@@ -67,6 +110,14 @@ script = ExtResource("10_tgx30")
 position = Vector2(40, 520)
 script = ExtResource("12_4o1c1")
 
+[node name="Label_props_c1" type="Label" parent="casa_1"]
+offset_left = 67.0
+offset_top = -19.0
+offset_right = 109.0
+offset_bottom = 22.0
+label_settings = SubResource("LabelSettings_4kkme")
+script = ExtResource("12_obepp")
+
 [node name="casa_2" type="Node2D" parent="."]
 position = Vector2(37, 471)
 script = ExtResource("8_nklfh")
@@ -75,9 +126,109 @@ script = ExtResource("8_nklfh")
 position = Vector2(36, 422)
 script = ExtResource("9_7djcb")
 
+[node name="Label_props_c3" type="Label" parent="casa_3"]
+offset_left = 76.0
+offset_top = -12.0
+offset_right = 116.0
+offset_bottom = 11.0
+label_settings = SubResource("LabelSettings_abrwe")
+script = ExtResource("15_386h0")
+
 [node name="casa_4" type="Node2D" parent="."]
 position = Vector2(36, 375)
 script = ExtResource("10_h8p61")
+
+[node name="casa_5" type="Node2D" parent="."]
+position = Vector2(36, 326)
+script = ExtResource("17_6pym6")
+
+[node name="casa_6" type="Node2D" parent="."]
+position = Vector2(36, 272)
+script = ExtResource("18_seawj")
+
+[node name="Label_props_c6" type="Label" parent="casa_6"]
+offset_left = 79.0
+offset_top = -14.0
+offset_right = 119.0
+offset_bottom = 9.0
+label_settings = SubResource("LabelSettings_wce74")
+script = ExtResource("19_rl786")
+
+[node name="casa_7" type="Node2D" parent="."]
+position = Vector2(37, 224)
+script = ExtResource("20_t8l0d")
+
+[node name="casa_8" type="Node2D" parent="."]
+position = Vector2(37, 176)
+script = ExtResource("21_emgny")
+
+[node name="Label_props_c8" type="Label" parent="casa_8"]
+offset_left = 77.0
+offset_top = -9.0
+offset_right = 117.0
+offset_bottom = 14.0
+label_settings = SubResource("LabelSettings_3v8b1")
+script = ExtResource("22_o1ao5")
+
+[node name="casa_9" type="Node2D" parent="."]
+position = Vector2(38, 128)
+script = ExtResource("23_mr22u")
+
+[node name="Label_props_c9" type="Label" parent="casa_9"]
+offset_left = 74.0
+offset_top = -5.0
+offset_right = 114.0
+offset_bottom = 18.0
+label_settings = SubResource("LabelSettings_4do1e")
+script = ExtResource("24_j2y7q")
+
+[node name="casa_10" type="Node2D" parent="."]
+position = Vector2(50, 75)
+script = ExtResource("25_2vl2b")
+
+[node name="casa_11" type="Node2D" parent="."]
+position = Vector2(125, 50)
+script = ExtResource("26_y5xef")
+
+[node name="Label_props_c11" type="Label" parent="casa_11"]
+offset_left = 3.0
+offset_top = 55.0
+offset_right = 43.0
+offset_bottom = 78.0
+label_settings = SubResource("LabelSettings_7ho3v")
+script = ExtResource("27_muwhh")
+
+[node name="casa_12" type="Node2D" parent="."]
+position = Vector2(174, 50)
+script = ExtResource("29_1uhtf")
+
+[node name="casa_13" type="Node2D" parent="."]
+position = Vector2(224, 48)
+script = ExtResource("29_us8ss")
+
+[node name="Label_props_c13" type="Label" parent="casa_13"]
+offset_left = -9.0
+offset_top = 61.0
+offset_right = 31.0
+offset_bottom = 84.0
+label_settings = SubResource("LabelSettings_d5g43")
+script = ExtResource("30_r6yr0")
+
+[node name="casa_14" type="Node2D" parent="."]
+position = Vector2(272, 46)
+script = ExtResource("31_l8s5y")
+
+[node name="Label_props_c14" type="Label" parent="casa_14"]
+offset_left = -9.0
+offset_top = 62.0
+offset_right = 31.0
+offset_bottom = 85.0
+label_settings = SubResource("LabelSettings_4p4gf")
+script = ExtResource("32_ooar4")
+
+[node name="casa_15" type="Node2D" parent="."]
+position = Vector2(325, 48)
+script = ExtResource("33_25bj8")
 
 [node name="dice_roll" type="Button" parent="."]
 offset_left = 851.0
@@ -87,4 +238,5 @@ offset_bottom = 635.0
 text = "Rolar Dado"
 
 [node name="dice" type="Node2D" parent="."]
+position = Vector2(699, 69)
 script = ExtResource("11_rmq5u")

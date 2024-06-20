@@ -23,7 +23,7 @@ func att_dinheiro():
 #atualiza na tela os dados rolados
 func att_dice(dice_aux):
 	display_dice.mostra_dice(dice_aux)
-	
+
 func passa_turno(pl):
 	if pl == p1:
 		return p2
@@ -39,7 +39,8 @@ func _ready():
 		rng = $dice.roll()
 		att_dice(rng)
 		pl_atual.move_casa(rng)
-		pl_atual = passa_turno(pl_atual))
+		pl_atual = passa_turno(pl_atual)
+		)
 	pass # Replace with function body.
 
 

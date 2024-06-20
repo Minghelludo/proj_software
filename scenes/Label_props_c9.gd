@@ -1,12 +1,7 @@
-extends Node2D
-#precisa adicionar função do rng
-var rng = RandomNumberGenerator.new()
+extends Label
+func att_props(quant):
+	text = str(quant)
 
-func roll():
-	#modificar os valores do range
-	#var aux = rng.randi_range(1,3)
-	#return aux
-	return 1
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

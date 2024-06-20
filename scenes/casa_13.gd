@@ -1,13 +1,14 @@
 extends Node2D
 #casa propriedade
-@onready var prox_casa = get_parent().get_node("casa_4")
-@onready var parente = get_parent().get_node("casa_1")
-const pos = Vector2(40,420)
+@onready var prox_casa = get_parent().get_node("casa_14")
+@onready var parente = get_parent().get_node("casa_11")
+@onready var parente_2 = get_parent().get_node("casa_14")
+const pos = Vector2(225,50)
 @onready var proprietario = null
 const custo_compra = 1000
 var custo_aluguel = 200
 var quant_casas = 0
-@onready var label = $Label_props_c3
+@onready var label = $Label_props_c13
 
 func get_position_casa():
 	return pos
@@ -28,7 +29,7 @@ func exec_action(pl):
 		pl.add_dinheiro(custo_compra*-1)
 		proprietario = pl
 	else:
-		if pl == proprietario and proprietario == parente.get_proprietario():
+		if pl == proprietario and proprietario == parente.get_proprietario() and proprietario == parente_2.get_proprietario():
 			compra_casa(pl)
 			pass
 		else:
