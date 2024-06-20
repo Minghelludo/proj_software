@@ -1,8 +1,7 @@
 extends Node2D
-#casa onibus
-@onready var prox_casa = get_parent().get_node("casa_16")
-#onready var parentes
-const pos = Vector2(325,50)
+#casa comp agua
+@onready var prox_casa = get_parent().get_node("casa_28")
+const pos = Vector2(600,425)
 @onready var proprietario = null
 const custo_compra = 1000
 var custo_aluguel = 200
@@ -27,7 +26,6 @@ func exec_action(pl):
 
 func get_prox():
 	return prox_casa
-
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=3 uid="uid://1rdyv16qqhoy"]
+[gd_scene load_steps=95 format=3 uid="uid://1rdyv16qqhoy"]
 
 [ext_resource type="Texture2D" uid="uid://8pfmpbwakr48" path="res://assets/tabuleiro.png" id="1_2koln"]
 [ext_resource type="Script" path="res://scenes/tabuleiro.gd" id="1_uojyg"]
@@ -34,6 +34,44 @@
 [ext_resource type="Script" path="res://scenes/casa_14.gd" id="31_l8s5y"]
 [ext_resource type="Script" path="res://scenes/Label_props_c14.gd" id="32_ooar4"]
 [ext_resource type="Script" path="res://scenes/casa_15.gd" id="33_25bj8"]
+[ext_resource type="Script" path="res://scenes/casa_16.gd" id="34_pi0jy"]
+[ext_resource type="Script" path="res://scenes/Label_props_c16.gd" id="35_jtono"]
+[ext_resource type="Script" path="res://scenes/casa_17.gd" id="36_06gel"]
+[ext_resource type="Script" path="res://scenes/casa_18.gd" id="37_m75pn"]
+[ext_resource type="Script" path="res://scenes/Label_props_c18.gd" id="38_mpi8v"]
+[ext_resource type="Script" path="res://scenes/casa_19.gd" id="39_28inu"]
+[ext_resource type="Script" path="res://scenes/Label_props_c19.gd" id="40_sq3ue"]
+[ext_resource type="Script" path="res://scenes/casa_20.gd" id="41_jwwet"]
+[ext_resource type="Script" path="res://scenes/Label_props_c21.gd" id="42_h5qyr"]
+[ext_resource type="Script" path="res://scenes/casa_21.gd" id="42_yidpf"]
+[ext_resource type="Script" path="res://scenes/casa_22.gd" id="44_jolbq"]
+[ext_resource type="Script" path="res://scenes/casa_23.gd" id="45_cuvjy"]
+[ext_resource type="Script" path="res://scenes/Label_props_c23.gd" id="46_6uv55"]
+[ext_resource type="Script" path="res://scenes/casa_24.gd" id="46_ethej"]
+[ext_resource type="Script" path="res://scenes/casa_25.gd" id="47_u345l"]
+[ext_resource type="Script" path="res://scenes/Label_props_c24.gd" id="48_eyi4l"]
+[ext_resource type="Script" path="res://scenes/casa_26.gd" id="51_8kdki"]
+[ext_resource type="Script" path="res://scenes/Label_props_c26.gd" id="52_egjww"]
+[ext_resource type="Script" path="res://scenes/casa_27.gd" id="52_nbfja"]
+[ext_resource type="Script" path="res://scenes/casa_28.gd" id="53_nfb1s"]
+[ext_resource type="Script" path="res://scenes/casa_29.gd" id="54_hjevu"]
+[ext_resource type="Script" path="res://scenes/Label_props_c28.gd" id="55_2a82b"]
+[ext_resource type="Script" path="res://scenes/casa_30.gd" id="55_u44p3"]
+[ext_resource type="Script" path="res://scenes/Label_props_c29.gd" id="57_03rfe"]
+[ext_resource type="Script" path="res://scenes/casa_31.gd" id="59_xn8xc"]
+[ext_resource type="Script" path="res://scenes/Label_props_c31.gd" id="60_0gipw"]
+[ext_resource type="Script" path="res://scenes/casa_32.gd" id="60_fdxx5"]
+[ext_resource type="Script" path="res://scenes/casa_33.gd" id="61_k442s"]
+[ext_resource type="Script" path="res://scenes/Label_props_c32.gd" id="62_33b8d"]
+[ext_resource type="Script" path="res://scenes/casa_34.gd" id="62_ehjfm"]
+[ext_resource type="Script" path="res://scenes/casa_35.gd" id="63_xauwt"]
+[ext_resource type="Script" path="res://scenes/casa_36.gd" id="64_keyqg"]
+[ext_resource type="Script" path="res://scenes/casa_37.gd" id="65_0v1rl"]
+[ext_resource type="Script" path="res://scenes/Label_props_c34.gd" id="65_gf44i"]
+[ext_resource type="Script" path="res://scenes/casa_38.gd" id="66_ufqbw"]
+[ext_resource type="Script" path="res://scenes/casa_39.gd" id="67_1xeuj"]
+[ext_resource type="Script" path="res://scenes/Label_props_c37.gd" id="69_ihqq7"]
+[ext_resource type="Script" path="res://scenes/Label_props_c39.gd" id="72_psud6"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_4kkme"]
 font_color = Color(0.0235294, 0, 0, 1)
@@ -57,6 +95,48 @@ font_color = Color(0, 0, 0, 1)
 font_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_4p4gf"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_1eu53"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_wk1vn"]
+font_color = Color(0, 0.027451, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_1me4n"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_7s6vb"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_4uh6x"]
+font_color = Color(0, 0.00784314, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_8lr57"]
+font_color = Color(0, 0, 0, 0.968627)
+
+[sub_resource type="LabelSettings" id="LabelSettings_ljfnf"]
+font_color = Color(0.0275549, 0.0195693, 0.00686761, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_ivlxa"]
+font_color = Color(0.0117647, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_1s0nk"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_yj1bp"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_iqv0x"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_xgmp4"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_mreqo"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_ye4vg"]
 font_color = Color(0, 0, 0, 1)
 
 [node name="Tabuleiro" type="Node2D"]
@@ -93,6 +173,17 @@ script = ExtResource("4_f604k")
 scale = Vector2(0.647, 0.647)
 texture = ExtResource("1_2koln")
 centered = false
+
+[node name="dice_roll" type="Button" parent="."]
+offset_left = 851.0
+offset_top = 516.0
+offset_right = 1095.0
+offset_bottom = 635.0
+text = "Rolar Dado"
+
+[node name="dice" type="Node2D" parent="."]
+position = Vector2(726, 71)
+script = ExtResource("11_rmq5u")
 
 [node name="player1" parent="." instance=ExtResource("2_fafxp")]
 position = Vector2(30, 620)
@@ -199,7 +290,7 @@ label_settings = SubResource("LabelSettings_7ho3v")
 script = ExtResource("27_muwhh")
 
 [node name="casa_12" type="Node2D" parent="."]
-position = Vector2(174, 50)
+position = Vector2(175, 54)
 script = ExtResource("29_1uhtf")
 
 [node name="casa_13" type="Node2D" parent="."]
@@ -230,13 +321,210 @@ script = ExtResource("32_ooar4")
 position = Vector2(325, 48)
 script = ExtResource("33_25bj8")
 
-[node name="dice_roll" type="Button" parent="."]
-offset_left = 851.0
-offset_top = 516.0
-offset_right = 1095.0
-offset_bottom = 635.0
-text = "Rolar Dado"
+[node name="casa_16" type="Node2D" parent="."]
+position = Vector2(375, 50)
+script = ExtResource("34_pi0jy")
 
-[node name="dice" type="Node2D" parent="."]
-position = Vector2(699, 69)
-script = ExtResource("11_rmq5u")
+[node name="Label_props_c16" type="Label" parent="casa_16"]
+offset_left = -13.0
+offset_top = 59.0
+offset_right = 27.0
+offset_bottom = 87.0
+label_settings = SubResource("LabelSettings_1eu53")
+script = ExtResource("35_jtono")
+
+[node name="casa_17" type="Node2D" parent="."]
+position = Vector2(422, 55)
+script = ExtResource("36_06gel")
+
+[node name="casa_18" type="Node2D" parent="."]
+position = Vector2(473, 46)
+script = ExtResource("37_m75pn")
+
+[node name="Label_props_c18" type="Label" parent="casa_18"]
+offset_left = -12.0
+offset_top = 61.0
+offset_right = 28.0
+offset_bottom = 84.0
+label_settings = SubResource("LabelSettings_wk1vn")
+script = ExtResource("38_mpi8v")
+
+[node name="casa_19" type="Node2D" parent="."]
+position = Vector2(520, 45)
+script = ExtResource("39_28inu")
+
+[node name="Label_props_c19" type="Label" parent="casa_19"]
+offset_left = -19.0
+offset_top = 61.0
+offset_right = 21.0
+offset_bottom = 84.0
+label_settings = SubResource("LabelSettings_1me4n")
+script = ExtResource("40_sq3ue")
+
+[node name="casa_20" type="Node2D" parent="."]
+position = Vector2(621, 70)
+script = ExtResource("41_jwwet")
+
+[node name="casa_21" type="Node2D" parent="."]
+position = Vector2(602, 128)
+script = ExtResource("42_yidpf")
+
+[node name="Label_props_c21" type="Label" parent="casa_21"]
+offset_left = -83.0
+offset_top = -4.0
+offset_right = -43.0
+offset_bottom = 19.0
+label_settings = SubResource("LabelSettings_7s6vb")
+script = ExtResource("42_h5qyr")
+
+[node name="casa_22" type="Node2D" parent="."]
+position = Vector2(600, 174)
+script = ExtResource("44_jolbq")
+
+[node name="casa_23" type="Node2D" parent="."]
+position = Vector2(602, 225)
+script = ExtResource("45_cuvjy")
+
+[node name="Label_props_c23" type="Label" parent="casa_23"]
+offset_left = -87.0
+offset_top = -10.0
+offset_right = -47.0
+offset_bottom = 13.0
+label_settings = SubResource("LabelSettings_4uh6x")
+script = ExtResource("46_6uv55")
+
+[node name="casa_24" type="Node2D" parent="."]
+position = Vector2(601, 269)
+script = ExtResource("46_ethej")
+
+[node name="Label_props_c24" type="Label" parent="casa_24"]
+offset_left = -81.0
+offset_top = -7.0
+offset_right = -41.0
+offset_bottom = 16.0
+label_settings = SubResource("LabelSettings_8lr57")
+script = ExtResource("48_eyi4l")
+
+[node name="casa_25" type="Node2D" parent="."]
+position = Vector2(598, 323)
+script = ExtResource("47_u345l")
+
+[node name="casa_26" type="Node2D" parent="."]
+position = Vector2(595, 378)
+script = ExtResource("51_8kdki")
+
+[node name="Label_props_c26" type="Label" parent="casa_26"]
+offset_left = -80.0
+offset_top = -11.0
+offset_right = -40.0
+offset_bottom = 12.0
+label_settings = SubResource("LabelSettings_ljfnf")
+script = ExtResource("52_egjww")
+
+[node name="casa_27" type="Node2D" parent="."]
+position = Vector2(594, 426)
+script = ExtResource("52_nbfja")
+
+[node name="casa_28" type="Node2D" parent="."]
+position = Vector2(595, 475)
+script = ExtResource("53_nfb1s")
+
+[node name="Label_props_c28" type="Label" parent="casa_28"]
+offset_left = -77.0
+offset_top = -12.0
+offset_right = -37.0
+offset_bottom = 11.0
+label_settings = SubResource("LabelSettings_ivlxa")
+script = ExtResource("55_2a82b")
+
+[node name="casa_29" type="Node2D" parent="."]
+position = Vector2(597, 522)
+script = ExtResource("54_hjevu")
+
+[node name="Label_props_c29" type="Label" parent="casa_29"]
+offset_left = -68.0
+offset_top = -22.0
+offset_right = -28.0
+offset_bottom = 1.0
+label_settings = SubResource("LabelSettings_1s0nk")
+script = ExtResource("57_03rfe")
+
+[node name="casa_30" type="Node2D" parent="."]
+position = Vector2(598, 603)
+script = ExtResource("55_u44p3")
+
+[node name="casa_31" type="Node2D" parent="."]
+position = Vector2(523, 606)
+script = ExtResource("59_xn8xc")
+
+[node name="Label_props_c31" type="Label" parent="casa_31"]
+offset_left = -16.0
+offset_top = -91.0
+offset_right = 24.0
+offset_bottom = -68.0
+label_settings = SubResource("LabelSettings_yj1bp")
+script = ExtResource("60_0gipw")
+
+[node name="casa_32" type="Node2D" parent="."]
+position = Vector2(470, 606)
+script = ExtResource("60_fdxx5")
+
+[node name="Label_props_c32" type="Label" parent="casa_32"]
+offset_left = -12.0
+offset_top = -94.0
+offset_right = 28.0
+offset_bottom = -63.0
+label_settings = SubResource("LabelSettings_iqv0x")
+script = ExtResource("62_33b8d")
+
+[node name="casa_33" type="Node2D" parent="."]
+position = Vector2(422, 603)
+script = ExtResource("61_k442s")
+
+[node name="casa_34" type="Node2D" parent="."]
+position = Vector2(372, 605)
+script = ExtResource("62_ehjfm")
+
+[node name="Label_props_c34" type="Label" parent="casa_34"]
+offset_left = -19.0
+offset_top = -84.0
+offset_right = 21.0
+offset_bottom = -61.0
+label_settings = SubResource("LabelSettings_xgmp4")
+script = ExtResource("65_gf44i")
+
+[node name="casa_35" type="Node2D" parent="."]
+position = Vector2(322, 605)
+script = ExtResource("63_xauwt")
+
+[node name="casa_36" type="Node2D" parent="."]
+position = Vector2(270, 602)
+script = ExtResource("64_keyqg")
+
+[node name="casa_37" type="Node2D" parent="."]
+position = Vector2(224, 607)
+script = ExtResource("65_0v1rl")
+
+[node name="Label_props_c37" type="Label" parent="casa_37"]
+offset_left = -20.0
+offset_top = -85.0
+offset_right = 20.0
+offset_bottom = -62.0
+label_settings = SubResource("LabelSettings_mreqo")
+script = ExtResource("69_ihqq7")
+
+[node name="casa_38" type="Node2D" parent="."]
+position = Vector2(172, 607)
+script = ExtResource("66_ufqbw")
+
+[node name="casa_39" type="Node2D" parent="."]
+position = Vector2(124, 610)
+script = ExtResource("67_1xeuj")
+
+[node name="Label_props_c39" type="Label" parent="casa_39"]
+offset_left = -1.0
+offset_top = -89.0
+offset_right = 42.0
+offset_bottom = -66.0
+label_settings = SubResource("LabelSettings_ye4vg")
+script = ExtResource("72_psud6")
