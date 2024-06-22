@@ -6,6 +6,7 @@ const pos = Vector2(40,375)
 func get_position_casa():
 	return pos
 
+#ação cobrar algum tipo de valor especifico ao jogador que cair nela
 func exec_action(pl):
 	var aux = -500
 	pl.add_dinheiro(aux)

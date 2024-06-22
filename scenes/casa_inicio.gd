@@ -1,4 +1,5 @@
 extends Node2D
+#objeto casa inicial
 
 #variavel da proxima casa para poder mover
 @onready var prox_casa = get_parent().get_node("casa_1")
@@ -9,7 +10,8 @@ func get_position_casa():
 	return pos
 
 #ação da casa, nesse caso adiciona fundos quando o jogador passa
-#precisa atualizar dps pq ta só quando ele para, mas isso checa pelo movimento
+#quando o jogador passa por essa casa, caso não pare, tbm executa a ação
+#logica no player
 func exec_action(pl):
 	pl.add_dinheiro(1000)
 	pass

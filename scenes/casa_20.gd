@@ -1,5 +1,6 @@
 extends Node2D
 #estacionamento gratis
+#não precisa de implementação
 @onready var prox_casa = get_parent().get_node("casa_21")
 const pos = Vector2(620,70)
 

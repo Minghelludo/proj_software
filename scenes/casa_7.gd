@@ -1,5 +1,6 @@
 extends Node2D
 #casa de carta
+#comentarios pertinentes na casa_2
 @onready var prox_casa = get_parent().get_node("casa_8")
 const pos = Vector2(40,220)
 

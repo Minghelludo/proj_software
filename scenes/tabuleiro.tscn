@@ -274,7 +274,7 @@ label_settings = SubResource("LabelSettings_4do1e")
 script = ExtResource("24_j2y7q")
 
 [node name="casa_10" type="Node2D" parent="."]
-position = Vector2(50, 75)
+position = Vector2(41, 76)
 script = ExtResource("25_2vl2b")
 
 [node name="casa_11" type="Node2D" parent="."]

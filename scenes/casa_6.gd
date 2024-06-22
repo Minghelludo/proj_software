@@ -1,5 +1,6 @@
 extends Node2D
-#casa propriedade
+#casa propriedade de 2 parentes
+#comentarios pertinentes na casa 1 + tem um parente a mais que precisa ser verificado
 @onready var prox_casa = get_parent().get_node("casa_7")
 @onready var parente = get_parent().get_node("casa_8")
 @onready var parente_2 = get_parent().get_node("casa_9")

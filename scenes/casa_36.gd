@@ -1,4 +1,6 @@
 extends Node2D
+#casa de carta
+#ação não implementada
 @onready var prox_casa = get_parent().get_node("casa_37")
 const pos = Vector2(270,600)
 

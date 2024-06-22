@@ -1,5 +1,6 @@
 extends Node2D
-#casa comp agua
+#casa comp agua, similar a comp eletrica
+#comentarios pertinenes na casa_12
 @onready var prox_casa = get_parent().get_node("casa_28")
 const pos = Vector2(600,425)
 @onready var proprietario = null
