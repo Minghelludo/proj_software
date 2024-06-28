@@ -2,7 +2,7 @@ extends Label
 #display de dinheiro p2, comentarios no Label_p1
 
 func mostra_di(di):
-	text = ("P2: ") + str(di)
+	text = ("Player 2 \nDinheiro: ") + str(di)
 	pass
 
 # Called when the node enters the scene tree for the first time.

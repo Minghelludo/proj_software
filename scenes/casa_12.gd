@@ -6,6 +6,7 @@ const pos = Vector2(175,50)
 @onready var proprietario = null
 const custo_compra = 1000
 var custo_aluguel = 200
+@onready var label_dono = $Label_dono_c12
 
 func get_position_casa():
 	return pos
@@ -18,6 +19,7 @@ func exec_action(pl):
 	if proprietario == null:
 		pl.add_dinheiro(custo_compra*-1)
 		proprietario = pl
+		label_dono.att_dono(pl.get_nome())
 	else:
 		#caso tenha, e seja ele msm, nada acontece
 		if pl == proprietario:

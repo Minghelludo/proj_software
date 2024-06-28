@@ -1,7 +1,7 @@
 extends Label
 
 func att_props(quant):
-	text = str(quant)
+	text = ("C:") + str(quant)
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.

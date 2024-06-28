@@ -12,6 +12,7 @@ const custo_compra = 1000
 #baseado em quantos pontos de onibus o proprietario tem
 var custo_aluguel_base = 200
 var custo_aluguel = custo_aluguel_base
+@onready var label_dono = $Label_dono_c5
 
 func get_position_casa():
 	return pos
@@ -59,6 +60,7 @@ func exec_action(pl):
 	if proprietario == null:
 		pl.add_dinheiro(custo_compra*-1)
 		proprietario = pl
+		label_dono.att_dono(pl.get_nome())
 		#e verifica os outros pontos para atualização de aluguel
 		verifica_parentes(pl)
 	#caso ja tenha dono

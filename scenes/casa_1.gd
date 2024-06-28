@@ -15,6 +15,7 @@ var quant_casas = 0
 #utilizado para controlar o label da quantidade de propriedade
 #deveria ser modificado para a entrega
 @onready var label = $Label_props_c1
+@onready var label_dono = $Label_dono_c1
 
 func get_position_casa():
 	return pos
@@ -38,6 +39,7 @@ func exec_action(pl):
 	if proprietario == null:
 		pl.add_dinheiro(custo_compra*-1)
 		proprietario = pl
+		label_dono.att_dono(pl.get_nome())
 	#caso tenha
 	else:
 		#se for ele msm checa para ver c ele tbm é proprietario dos parentes

@@ -9,6 +9,7 @@ const custo_compra = 1000
 var custo_aluguel = 200
 var quant_casas = 0
 @onready var label = $Label_props_c37
+@onready var label_dono = $Label_dono_c37
 
 func get_position_casa():
 	return pos
@@ -28,6 +29,7 @@ func exec_action(pl):
 	if proprietario == null:
 		pl.add_dinheiro(custo_compra*-1)
 		proprietario = pl
+		label_dono.att_dono(pl.get_nome())
 	#caso tenha
 	else:
 		#se for ele msm constroi

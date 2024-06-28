@@ -1,7 +1,8 @@
 extends Node2D
 #variaveis
 var pos_inicio: Vector2 = Vector2(30,620)
-var dinheiro: int = 5000
+var dinheiro: int = 10000
+var nome = "P1"
 #casa_i é a casa inicial pra controlar o recebimento de dinheiro
 #pos_casa vai ser por onde controlar aonde no tabuleiro o jogador esta
 @onready var casa_i = get_parent().get_node("casa_inicio")
@@ -28,6 +29,9 @@ func get_dinheiro():
 func add_dinheiro(di):
 	dinheiro = dinheiro + di
 	return dinheiro
+
+func get_nome():
+	return nome
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

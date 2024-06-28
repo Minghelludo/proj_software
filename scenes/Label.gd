@@ -3,7 +3,7 @@ extends Label
 
 #atualiza o texto do label
 func mostra_di(di):
-	text = ("P1: ") + str(di)
+	text = ("Player 1 \nDinheiro: ") + str(di)
 	pass
 
 # Called when the node enters the scene tree for the first time.
